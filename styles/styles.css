@@ -5,6 +5,8 @@ body{
     flex-direction: column;
     background-color: white;
     font-family: 'Roboto', arial;
+    overflow:auto;
+
 }
 
   .container {
