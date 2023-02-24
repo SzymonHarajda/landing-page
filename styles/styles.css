@@ -5,14 +5,10 @@ body{
     flex-direction: column;
     background-color: white;
     font-family: 'Roboto', arial;
-    overflow:auto;
-
+    overflow: auto;
 }
 
-  .container {
-    display: flex;
-    flex-direction: column;
-}
+  
 button {
   font-family: sans-serif;
   border: none;
@@ -31,7 +27,6 @@ a {
 }  
   
   h1,
-  p,
   h2
   {
     color: #f9faf8;
@@ -81,6 +76,9 @@ margin: 0;
 .quote{
   background-color: #E5E7EB;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 200px;
 }
 .quote-text{
   display: flex;
@@ -90,22 +88,20 @@ margin: 0;
   font-size: 36px;
   justify-content: center;
   align-items: center;
-}
-.quote1{
-  display: flex;
-  color: #1f2937;
-  justify-content: flex-end;
-  align-items: center;
-  padding-right: 36px;
   margin: 0;
 }
+b{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .bot1,
 .bot2,
 .bot3{
   border: 5px solid #3882F6;
   border-radius: 15px;
   border-color: #3882f6;
-
 }
 .color{
   color: #1f2937;
@@ -123,10 +119,11 @@ margin: 0;
 .photos{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 10rem;
   padding: 16px;
+  flex-wrap: wrap;
 }
 .bot1{
   width: 9.375rem;
@@ -149,5 +146,29 @@ margin: 0;
     align-items: center;
     padding-right: 1rem;
 
-  }
+}
+.sign-up{
+  background-color: #3882F6;
+  margin: 50px 200px;
+  padding: 10px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  border-color: none;
   
+}
+.sign-up-text{
+  display: block;
+}
+.butt{
+  display: block;
+  color: #fff;
+  font-family: 'Roboto', arial;
+  border-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background-color: #3882F6;
+  padding: 5px 25px;
+  font-size: 15px;
+}
